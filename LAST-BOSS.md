@@ -2,6 +2,18 @@
 Project Overview
 A dual-interface application that combines FastAPI for web API and Typer for CLI operations to scrape and manage eBay product data.
 
+## Typer Output
+```bash
+# Search for products
+ebay-scraper search "iphone 14" --limit 20
+
+# Export data
+ebay-scraper export --format excel --output products.xlsx
+
+# Get single product details
+ebay-scraper product --item-number 123456789
+```
+
 ## Core Features
 1. Web API Interface (FastAPI)
 Product search endpoints
