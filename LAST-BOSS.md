@@ -14,6 +14,29 @@ ebay-scraper export --format excel --output products.xlsx
 ebay-scraper product --item-number 123456789
 ```
 
+## Penjelasan Perintah
+```
+Main Commands
+search - Search for products on eBay
+
+Options:
+--limit: Number of results
+--category: Filter by category
+--sort: Sort results
+export - Export scraped data
+
+Options:
+--format: csv/excel
+--output: Output filename
+--query: Filter results
+product - Get specific product details
+
+Options:
+--item-number: eBay item number
+--save: Save to fil
+
+```
+
 ## Core Features
 1. Web API Interface (FastAPI)
 Product search endpoints
